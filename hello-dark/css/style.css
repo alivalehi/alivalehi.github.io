@@ -278,7 +278,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: url(../images/1920X1080.gif) #333 40% 40%;
+    background: url(../images/bg.jpg) #333 40% 40%;
     background-size: cover;
 }
 
