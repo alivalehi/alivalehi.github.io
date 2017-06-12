@@ -48,6 +48,7 @@ img {
     height: auto;
 }
 
+
 /* texts */
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
@@ -277,7 +278,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: url(../images/bg.jpg) #333 ;
+    background: url(../images/bg.jpg) #333 40% 40%;
     background-size: cover;
 }
 
@@ -290,6 +291,7 @@ strong, small {
 
 h2.menu-item {
     position: relative;
+    color: #FFF;
     cursor: pointer;
     margin: 50px;
     font-size: 28px;
@@ -325,7 +327,7 @@ h2.menu-item:after {
     left: -20px;
     width: 70px;
     height: 1px;
-    background: #333;
+    background: #FFF;
     transition: all 0.5s ease;
 }
 
@@ -342,7 +344,7 @@ h2.menu-item:hover:after {
     position: absolute;
     width: 700px;
     height: 700px;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.4);
     display: table;
     transition: all 0.5s;
 }
@@ -383,7 +385,7 @@ h2.menu-item:hover:after {
 .name-block-container h2 {
     text-transform: capitalize;
     font-weight: 700;
-    color: #333;
+    color: #FFF;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -411,8 +413,8 @@ h2.menu-item:hover:after {
 }
 
 .social a {
-    border: 2px solid #333;
-    color: #333;
+    border: 2px solid #FFF;
+    color: #FFF;
     display: inline-block;
     height: 35px;
     width: 35px;
@@ -436,7 +438,7 @@ h2.menu-item:hover:after {
     position: absolute;
     width: 430px;
     height: 300px;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.4);
     display: table;
 }
 
@@ -717,7 +719,7 @@ ul.info-list li strong {
     position: absolute;
     width: 430px;
     height: 400px;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.4);
     display: table;
 }
 
@@ -904,7 +906,7 @@ ul.info-list li strong {
     position: absolute;
     width: 430px;
     height: 300px;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.4);
     display: table;
 }
 
@@ -1241,7 +1243,7 @@ ul.info-list li strong {
     position: absolute;
     width: 430px;
     height: 400px;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.4);
     display: table;
 }
 
